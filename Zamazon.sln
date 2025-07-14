@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{886506FD-2386-4863-B974-D4DF2D228AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{97626DA3-4E79-4752-910A-B8FF68FC9AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Catalog", "Services\Catalog\Zamazon.Catalog\Zamazon.Catalog.csproj", "{898A2E94-0E66-45C8-95E6-84DF8581FDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97626DA3-4E79-4752-910A-B8FF68FC9AA8} = {886506FD-2386-4863-B974-D4DF2D228AB8}
+		{898A2E94-0E66-45C8-95E6-84DF8581FDDA} = {97626DA3-4E79-4752-910A-B8FF68FC9AA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0928B34C-4182-457A-9BDA-4774EF84992A}
+	EndGlobalSection
+EndGlobal

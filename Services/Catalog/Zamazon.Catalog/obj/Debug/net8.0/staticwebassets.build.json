@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tBmADMBAO6PtOb/bExM9jj36NIL7+GIyENoLnuMoHFM=",
+  "Source": "Zamazon.Catalog",
+  "BasePath": "_content/Zamazon.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
