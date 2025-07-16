@@ -3,8 +3,8 @@
     public class CreateProductDetailDto
     {
         
-        public int ProductDescription { get; set; }
-        public int ProductInfo { get; set; }
+        public string ProductDescription { get; set; }
+        public string ProductInfo { get; set; }
         public string ProductId { get; set; }
     }
 }

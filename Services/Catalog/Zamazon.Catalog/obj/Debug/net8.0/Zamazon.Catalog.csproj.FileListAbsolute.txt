@@ -36,3 +36,6 @@ C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\Debug\net8.0\Zamazon.Catalog.pdb
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\Debug\net8.0\Zamazon.Catalog.genruntimeconfig.cache
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\Debug\net8.0\ref\Zamazon.Catalog.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\Debug\net8.0\Zamazon.Catalog.sourcelink.json

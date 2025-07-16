@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{88
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{97626DA3-4E79-4752-910A-B8FF68FC9AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Catalog", "Services\Catalog\Zamazon.Catalog\Zamazon.Catalog.csproj", "{898A2E94-0E66-45C8-95E6-84DF8581FDDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Catalog", "Services\Catalog\Zamazon.Catalog\Zamazon.Catalog.csproj", "{898A2E94-0E66-45C8-95E6-84DF8581FDDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
