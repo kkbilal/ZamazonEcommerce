@@ -1,0 +1,6 @@
+@Zamazon.Discount_HostAddress = http://localhost:5082
+
+GET {{Zamazon.Discount_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

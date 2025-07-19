@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{9762
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Catalog", "Services\Catalog\Zamazon.Catalog\Zamazon.Catalog.csproj", "{898A2E94-0E66-45C8-95E6-84DF8581FDDA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{AD436B25-B849-44B2-8B81-CF196AD39AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Discount", "Services\Discount\Zamazon.Discount\Zamazon.Discount.csproj", "{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898A2E94-0E66-45C8-95E6-84DF8581FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{97626DA3-4E79-4752-910A-B8FF68FC9AA8} = {886506FD-2386-4863-B974-D4DF2D228AB8}
 		{898A2E94-0E66-45C8-95E6-84DF8581FDDA} = {97626DA3-4E79-4752-910A-B8FF68FC9AA8}
+		{AD436B25-B849-44B2-8B81-CF196AD39AD6} = {886506FD-2386-4863-B974-D4DF2D228AB8}
+		{12A05BB5-8462-4AB4-ABFC-2F11A8C256BF} = {AD436B25-B849-44B2-8B81-CF196AD39AD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0928B34C-4182-457A-9BDA-4774EF84992A}
