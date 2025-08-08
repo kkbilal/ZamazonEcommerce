@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Zamazon.IdentityServer.Controllers.RegistersController",
+    "Method": "Register",
+    "RelativePath": "api/Registers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDto",
+        "Type": "Zamazon.IdentityServer.Dtos.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

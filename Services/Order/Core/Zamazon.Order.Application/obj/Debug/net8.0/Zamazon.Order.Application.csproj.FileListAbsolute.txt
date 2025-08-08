@@ -1,0 +1,16 @@
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\bin\Debug\net8.0\Zamazon.Order.Application.deps.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\bin\Debug\net8.0\Zamazon.Order.Application.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\bin\Debug\net8.0\Zamazon.Order.Application.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\bin\Debug\net8.0\Zamazon.Order.Domain.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\bin\Debug\net8.0\Zamazon.Order.Domain.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.csproj.AssemblyReference.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.AssemblyInfoInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.AssemblyInfo.cs
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.sourcelink.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon..E370E8E5.Up2Date
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\refint\Zamazon.Order.Application.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\Zamazon.Order.Application.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Core\Zamazon.Order.Application\obj\Debug\net8.0\ref\Zamazon.Order.Application.dll

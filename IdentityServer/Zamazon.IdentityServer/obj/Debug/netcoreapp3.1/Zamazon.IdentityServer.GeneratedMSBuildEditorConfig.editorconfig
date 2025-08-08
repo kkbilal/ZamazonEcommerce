@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Zamazon.IdentityServer
+build_property.ProjectDir = C:\Users\Bilal\Desktop\asp.netCore\Zamazon\IdentityServer\Zamazon.IdentityServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

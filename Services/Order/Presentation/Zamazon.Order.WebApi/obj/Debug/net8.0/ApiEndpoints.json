@@ -1,0 +1,224 @@
+[
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.AddressesController",
+    "Method": "GetAddressesAsync",
+    "RelativePath": "api/Addresses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.AddressesController",
+    "Method": "CreateAddressAsync",
+    "RelativePath": "api/Addresses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.CQRS.Commands.AddressCommands.CreateAddressCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.AddressesController",
+    "Method": "UpdateAddressAsync",
+    "RelativePath": "api/Addresses",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.CQRS.Commands.AddressCommands.UpdateAddressCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.AddressesController",
+    "Method": "GetAddressByIdAsync",
+    "RelativePath": "api/Addresses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.AddressesController",
+    "Method": "RemoveAddressAsync",
+    "RelativePath": "api/Addresses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderDetailsController",
+    "Method": "GetOrderDetailsAsync",
+    "RelativePath": "api/OrderDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderDetailsController",
+    "Method": "CreateOrderDetailAsync",
+    "RelativePath": "api/OrderDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.CQRS.Commands.OrderDetailCommands.CreateOrderDetailCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderDetailsController",
+    "Method": "UpdateOrderDetailAsync",
+    "RelativePath": "api/OrderDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.CQRS.Commands.OrderDetailCommands.UpdateOrderDetailCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderDetailsController",
+    "Method": "GetOrderDetailByIdAsync",
+    "RelativePath": "api/OrderDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderDetailsController",
+    "Method": "RemoveOrderDetailAsync",
+    "RelativePath": "api/OrderDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderingsController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.MediatR.Commands.CreateOrderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderingsController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Zamazon.Order.Application.Features.MediatR.Commands.UpdateOrderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orderings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Order.WebApi.Controllers.OrderingsController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orderings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

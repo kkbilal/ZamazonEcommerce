@@ -1,0 +1,6 @@
+@Zamazon.Order.WebApi_HostAddress = http://localhost:5027
+
+GET {{Zamazon.Order.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

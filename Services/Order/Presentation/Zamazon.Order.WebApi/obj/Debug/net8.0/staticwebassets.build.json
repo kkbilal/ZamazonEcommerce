@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TKaT2aNaNhwDabtNeQQpo3qFB+WLYAm6ygfvMr8tCnA=",
+  "Source": "Zamazon.Order.WebApi",
+  "BasePath": "_content/Zamazon.Order.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
