@@ -168,3 +168,4 @@ C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Discount\Zamazon.Discount\ob
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Discount\Zamazon.Discount\obj\Debug\net8.0\Zamazon.Discount.pdb
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Discount\Zamazon.Discount\obj\Debug\net8.0\Zamazon.Discount.genruntimeconfig.cache
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Discount\Zamazon.Discount\obj\Debug\net8.0\ref\Zamazon.Discount.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Discount\Zamazon.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -176,3 +176,4 @@ C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Presentation\Zamazon.O
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Presentation\Zamazon.Order.WebApi\obj\Debug\net8.0\Zamazon.Order.WebApi.pdb
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Presentation\Zamazon.Order.WebApi\obj\Debug\net8.0\Zamazon.Order.WebApi.genruntimeconfig.cache
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Presentation\Zamazon.Order.WebApi\obj\Debug\net8.0\ref\Zamazon.Order.WebApi.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Order\Presentation\Zamazon.Order.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

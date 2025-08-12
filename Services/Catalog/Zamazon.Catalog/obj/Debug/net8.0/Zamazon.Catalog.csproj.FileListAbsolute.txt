@@ -39,3 +39,11 @@ C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\obj\Debug\net8.0\Zamazon.Catalog.sourcelink.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Catalog\Zamazon.Catalog\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

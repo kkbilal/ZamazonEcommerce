@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Zamazon.Catalog.Dtos.ProductDetailDtos;
 using Zamazon.Catalog.Dtos.ProductDtos;
@@ -7,6 +8,7 @@ using Zamazon.Catalog.Services.ProductServices;
 
 namespace Zamazon.Catalog.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductDetailsController : ControllerBase

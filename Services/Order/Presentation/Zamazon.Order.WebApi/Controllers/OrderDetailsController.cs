@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Zamazon.Order.Application.Features.CQRS.Commands.OrderDetailCommands;
 using Zamazon.Order.Application.Features.CQRS.Handlers.OrderDetailHandler;
@@ -6,6 +7,7 @@ using Zamazon.Order.Application.Features.CQRS.Queries.OrderDetailQueries;
 
 namespace Zamazon.Order.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderDetailsController : ControllerBase

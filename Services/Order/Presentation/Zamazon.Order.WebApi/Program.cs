@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Zamazon.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using Zamazon.Order.Application.Features.CQRS.Handlers.OrderDetailHandler;
 using Zamazon.Order.Application.Interfaces;
@@ -6,7 +7,12 @@ using Zamazon.Order.Persistance.Context;
 using Zamazon.Order.Persistance.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.Authority = builder.Configuration["IdentityServerUrl"];
+    options.Audience = "ResourceOrder";
+    options.RequireHttpsMetadata = false; // For development purposes only, set to true in production
+});
 builder.Services.AddDbContext<OrderContext>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -44,7 +50,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Zamazon.Order.Application.Features.MediatR.Commands;
@@ -6,6 +7,7 @@ using Zamazon.Order.Application.Features.MediatR.Queries;
 
 namespace Zamazon.Order.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderingsController : ControllerBase

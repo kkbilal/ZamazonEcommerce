@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Services\\Catalog\\Zamazon.Catalog\\Zamazon.Catalog.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "IdentityServer\\Zamazon.IdentityServer\\Zamazon.IdentityServer.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Services\\Discount\\Zamazon.Discount\\Zamazon.Discount.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Services\\Order\\Presentation\\Zamazon.Order.WebApi\\Zamazon.Order.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
