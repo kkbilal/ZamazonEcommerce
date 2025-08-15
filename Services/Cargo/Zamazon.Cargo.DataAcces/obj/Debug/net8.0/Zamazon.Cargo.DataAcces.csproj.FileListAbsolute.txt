@@ -1,0 +1,16 @@
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\bin\Debug\net8.0\Zamazon.Cargo.DataAcces.deps.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\bin\Debug\net8.0\Zamazon.Cargo.DataAcces.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\bin\Debug\net8.0\Zamazon.Cargo.DataAcces.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\bin\Debug\net8.0\Zamazon.Cargo.Entity.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\bin\Debug\net8.0\Zamazon.Cargo.Entity.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.csproj.AssemblyReference.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.AssemblyInfoInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.AssemblyInfo.cs
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.sourcelink.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon..63C76CD0.Up2Date
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\refint\Zamazon.Cargo.DataAcces.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\Zamazon.Cargo.DataAcces.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.DataAcces\obj\Debug\net8.0\ref\Zamazon.Cargo.DataAcces.dll

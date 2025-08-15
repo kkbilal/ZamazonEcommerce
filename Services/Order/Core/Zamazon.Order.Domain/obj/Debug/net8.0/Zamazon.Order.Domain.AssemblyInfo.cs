@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e5444675d94541cff5d43f3f97899a79ae86fa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588d81d44f03ca99f24061e8280f0c19955cd943")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,14 +16,15 @@ namespace Zamazon.IdentityServer
             new ApiResource("ResourceCatalog"){Scopes = {"CatalogFullPermission","CatalogReadPermission"}},
             new ApiResource("ResourceDiscount"){Scopes = { "DiscountFullPermission"}},
             new ApiResource("ResourceOrder"){Scopes = {"OrderFullPermission"}},
-           
+            new ApiResource("ResourceCargo"){Scopes = {"CargoFullPermission"}},
+
         };
         public static IEnumerable<IdentityResource> IdentityResources => new IdentityResource[]
          {
             new IdentityResources.OpenId(),
             new IdentityResources.Profile(),
-            new IdentityResources.Email()           
-         };                    
+            new IdentityResources.Email()
+         };
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
@@ -32,6 +33,7 @@ namespace Zamazon.IdentityServer
                 new ApiScope("CatalogReadPermission","Read Authority for Catalog operations"),
                 new ApiScope("DiscountFullPermission","Full Authority for Discount operations"),
                 new ApiScope("OrderFullPermission","Full Authority for Order operations"),
+                new ApiScope("CargoFullPermission","Full Authority for Cargo operations"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName, "Local API Scope")
             };
 
@@ -69,14 +71,17 @@ namespace Zamazon.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("zamazonsecret".Sha256()) },
 
-                    AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission", "CatalogReadPermission",IdentityServerConstants.LocalApi.ScopeName,
+                    AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission",
+                        "CatalogReadPermission",
+                        "CargoFullPermission",
+                        IdentityServerConstants.LocalApi.ScopeName,
                         IdentityServerConstants.StandardScopes.Email,
-                        IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile 
+                        IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile
                     },
-                    
+
                     AccessTokenLifetime= 600 // 10 minutes
                 }
-                
+
             };
     }
 }

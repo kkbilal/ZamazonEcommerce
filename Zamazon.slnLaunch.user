@@ -19,6 +19,11 @@
       },
       {
         "Name": "Services\\Order\\Presentation\\Zamazon.Order.WebApi\\Zamazon.Order.WebApi.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Services\\Cargo\\Zamazon.Cargo.WebApi\\Zamazon.Cargo.WebApi.csproj",
         "Action": "Start"
       }
     ]

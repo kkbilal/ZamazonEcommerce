@@ -1,0 +1,308 @@
+[
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "GetAll",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "Add",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoCompanyDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoCompanyDtos.CreateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "Update",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoCompanyDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoCompanyDtos.UpdateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "GetById",
+    "RelativePath": "api/CargoCompany/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "Delete",
+    "RelativePath": "api/CargoCompany/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/CargoCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "Create",
+    "RelativePath": "api/CargoCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoCustomerDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoCustomerDtos.CreateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/CargoCustomer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "Update",
+    "RelativePath": "api/CargoCustomer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoCustomerDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoCustomerDtos.UpdateCargoCustomerDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoCustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/CargoCustomer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "GetAllCargoDetails",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "AddCargoDetail",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoDetailDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoDetailDtos.CreateCargoDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "UpdateCargoDetail",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoDetailDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoDetailDtos.UpdateCargoDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "GetCargoDetail",
+    "RelativePath": "api/CargoDetail/{cargoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "DeleteCargoDetail",
+    "RelativePath": "api/CargoDetail/{cargoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "GetAll",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "Create",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreatecargoOperationDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoOperationDtos.CreateCargoOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "GetById",
+    "RelativePath": "api/CargoOperation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "Update",
+    "RelativePath": "api/CargoOperation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoOperationDto",
+        "Type": "Zamazon.Cargo.Dto.Dtos.CargoOperationDtos.UpdateCargoOperationDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "Delete",
+    "RelativePath": "api/CargoOperation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

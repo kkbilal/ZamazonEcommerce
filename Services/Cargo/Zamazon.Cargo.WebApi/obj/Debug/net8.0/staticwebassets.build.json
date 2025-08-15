@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SntlGQpGPXcaHrVcn7UC6Asi8KmOdwss59D4AVZ4Y1o=",
+  "Source": "Zamazon.Cargo.WebApi",
+  "BasePath": "_content/Zamazon.Cargo.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

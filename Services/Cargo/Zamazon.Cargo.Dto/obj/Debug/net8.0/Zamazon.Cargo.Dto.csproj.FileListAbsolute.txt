@@ -1,0 +1,12 @@
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\bin\Debug\net8.0\Zamazon.Cargo.Dto.deps.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\bin\Debug\net8.0\Zamazon.Cargo.Dto.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\bin\Debug\net8.0\Zamazon.Cargo.Dto.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.AssemblyInfoInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.AssemblyInfo.cs
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.sourcelink.json
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\refint\Zamazon.Cargo.Dto.dll
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\Zamazon.Cargo.Dto.pdb
+C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Services\Cargo\Zamazon.Cargo.Dto\obj\Debug\net8.0\ref\Zamazon.Cargo.Dto.dll
