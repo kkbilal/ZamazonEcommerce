@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NpsXFYlaH4LNdNk8duKcuSMueybKQY7aiTGzAJoliYo=",
+  "Source": "Zamazon.Basket.WebApi",
+  "BasePath": "_content/Zamazon.Basket.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

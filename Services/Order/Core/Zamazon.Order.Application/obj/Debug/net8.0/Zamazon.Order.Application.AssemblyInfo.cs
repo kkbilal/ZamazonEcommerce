@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.Order.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588d81d44f03ca99f24061e8280f0c19955cd943")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add8d085c09dc45df7b06022450f46a6952ad259")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.Order.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.Order.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,6 +24,11 @@
       },
       {
         "Name": "Services\\Cargo\\Zamazon.Cargo.WebApi\\Zamazon.Cargo.WebApi.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Services\\Basket\\Zamazon.Basket.WebApi\\Zamazon.Basket.WebApi.csproj",
         "Action": "Start"
       }
     ]

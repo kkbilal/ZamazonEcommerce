@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Zamazon.Basket.WebApi.props" />
+</Project>

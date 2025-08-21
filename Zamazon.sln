@@ -35,15 +35,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.IdentityServer", "I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{D70C8C11-782D-473B-9A7F-03834BE6ECBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Cargo.Business", "Services\Cargo\Zamazon.Cargo.Business\Zamazon.Cargo.Business.csproj", "{1F329AF5-3114-470C-81BC-87402811E817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Cargo.Business", "Services\Cargo\Zamazon.Cargo.Business\Zamazon.Cargo.Business.csproj", "{1F329AF5-3114-470C-81BC-87402811E817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Cargo.Entity", "Services\Cargo\Zamazon.Cargo.Entity\Zamazon.Cargo.Entity.csproj", "{E67524F5-E93C-4022-9AC8-CAD798506FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Cargo.Entity", "Services\Cargo\Zamazon.Cargo.Entity\Zamazon.Cargo.Entity.csproj", "{E67524F5-E93C-4022-9AC8-CAD798506FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Cargo.DataAcces", "Services\Cargo\Zamazon.Cargo.DataAcces\Zamazon.Cargo.DataAcces.csproj", "{84A7D62E-12E0-42A9-8D07-F475A2CB8650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Cargo.DataAcces", "Services\Cargo\Zamazon.Cargo.DataAcces\Zamazon.Cargo.DataAcces.csproj", "{84A7D62E-12E0-42A9-8D07-F475A2CB8650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Cargo.Dto", "Services\Cargo\Zamazon.Cargo.Dto\Zamazon.Cargo.Dto.csproj", "{735CC249-7673-499C-89E5-A03F4E20AD17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Cargo.Dto", "Services\Cargo\Zamazon.Cargo.Dto\Zamazon.Cargo.Dto.csproj", "{735CC249-7673-499C-89E5-A03F4E20AD17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.Cargo.WebApi", "Services\Cargo\Zamazon.Cargo.WebApi\Zamazon.Cargo.WebApi.csproj", "{85270C8F-2057-4FAE-8D67-6DCC9562D117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Cargo.WebApi", "Services\Cargo\Zamazon.Cargo.WebApi\Zamazon.Cargo.WebApi.csproj", "{85270C8F-2057-4FAE-8D67-6DCC9562D117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{DE73E92E-9F4C-4BE8-9895-4AD8908DB965}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamazon.Basket.WebApi", "Services\Basket\Zamazon.Basket.WebApi\Zamazon.Basket.WebApi.csproj", "{F26702E6-989A-4655-B3D7-C318E321785D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{713A9CCB-9B27-4C02-8DD4-ABD144C49C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zamazon.WebUI", "Frontend\Zamazon.WebUI\Zamazon.WebUI.csproj", "{864D9EBE-AA97-43C3-ACE5-71D509C1D06D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,14 @@ Global
 		{85270C8F-2057-4FAE-8D67-6DCC9562D117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85270C8F-2057-4FAE-8D67-6DCC9562D117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85270C8F-2057-4FAE-8D67-6DCC9562D117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26702E6-989A-4655-B3D7-C318E321785D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26702E6-989A-4655-B3D7-C318E321785D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26702E6-989A-4655-B3D7-C318E321785D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26702E6-989A-4655-B3D7-C318E321785D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864D9EBE-AA97-43C3-ACE5-71D509C1D06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864D9EBE-AA97-43C3-ACE5-71D509C1D06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864D9EBE-AA97-43C3-ACE5-71D509C1D06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864D9EBE-AA97-43C3-ACE5-71D509C1D06D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +139,9 @@ Global
 		{84A7D62E-12E0-42A9-8D07-F475A2CB8650} = {D70C8C11-782D-473B-9A7F-03834BE6ECBD}
 		{735CC249-7673-499C-89E5-A03F4E20AD17} = {D70C8C11-782D-473B-9A7F-03834BE6ECBD}
 		{85270C8F-2057-4FAE-8D67-6DCC9562D117} = {D70C8C11-782D-473B-9A7F-03834BE6ECBD}
+		{DE73E92E-9F4C-4BE8-9895-4AD8908DB965} = {886506FD-2386-4863-B974-D4DF2D228AB8}
+		{F26702E6-989A-4655-B3D7-C318E321785D} = {DE73E92E-9F4C-4BE8-9895-4AD8908DB965}
+		{864D9EBE-AA97-43C3-ACE5-71D509C1D06D} = {713A9CCB-9B27-4C02-8DD4-ABD144C49C5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0928B34C-4182-457A-9BDA-4774EF84992A}
