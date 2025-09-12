@@ -1,0 +1,46 @@
+﻿@model UpdateProductDto
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="content container-fluid">
+	<div class="row">
+
+		<div class="col-md-12">
+			<div class="chart-box">
+
+
+				<div class="bs-example" data-example-id="bordered-table">
+					<form method="post">
+						<div class="form-group">
+							<label for="productId">Product Id</label>
+							<input type="hidden" class="form-control" asp-for="ProductId" readonly>
+							<br />
+							<label for="productName">Product Name</label>
+							<input type="text" class="form-control" asp-for="ProductName" placeholder="Enter Product name">
+							<br />
+							<label for="productPrice">Product Price</label>
+							<input type="text" class="form-control" asp-for="ProductPrice" placeholder="Enter Product Price">
+							<br />
+							<label for="productImage">Product Image</label>
+							<input type="text" class="form-control" asp-for="ProductImageUrl" placeholder="Enter Product Image">
+							<br />
+							<label for="productCategory">Product Category</label>
+							@Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.catValues, new { @class = "form-control" })
+							<br />
+							<label for="productName">Product Description</label>
+							<textarea class="form-control" asp-for="ProductDescription" rows="4"></textarea>
+							<br />
+						</div>
+
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+

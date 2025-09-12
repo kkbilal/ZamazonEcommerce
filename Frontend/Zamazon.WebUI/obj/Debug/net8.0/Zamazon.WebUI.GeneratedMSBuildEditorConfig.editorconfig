@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Zamazon.WebUI
 build_property.RootNamespace = Zamazon.WebUI
@@ -18,12 +26,180 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Bilal\Desktop\asp.netCore\Zamazon\Frontend\Zamazon.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/AdminLayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Product/ProductListWithCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdFdpdGhDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0SGVhZENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeaderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0SGVhZGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutSectionViewBagComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0U2VjdGlvblZpZXdCYWdDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutSideBarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0U2lkZUJhckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/SpecialOffer/CreateSpecialOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXENyZWF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/SpecialOffer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/SpecialOffer/UpdateSpecialOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXFVwZGF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/ProductList/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/ProductList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_CarouselDeafultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nhcm91c2VsRGVhZnVsdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_CategoriesDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3JpZXNEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_FeatureDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_FooterUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Zvb3RlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_HeadUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRVSUxheW91dENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_MostProductsDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01vc3RQcm9kdWN0c0RlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_OfferDiscountDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX09mZmVyRGlzY291bnREZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductDetailDescriptionComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxEZXNjcmlwdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductDetailInformationComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxJbmZvcm1hdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductDetailProductInfoComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxQcm9kdWN0SW5mb0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductDetailReviewComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxSZXZpZXdDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductDetailSliderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxTbGlkZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListColorFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0Q29sb3JGaWx0ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListPaginationComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0UGFnaW5hdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListPriceFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0UHJpY2VGaWx0ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListSizeFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0U2l6ZUZpbHRlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ProductListSortingComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0U29ydGluZ0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdFVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ShoppingCartProductsComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Nob3BwaW5nQ2FydFByb2R1Y3RzQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_ShoppingCartSummaryComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Nob3BwaW5nQ2FydFN1bW1hcnlDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_SpecialOfferComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NwZWNpYWxPZmZlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_TopBarUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RvcEJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Components/_VendorDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ZlbmRvckRlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/Error.cshtml]
@@ -32,6 +208,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/UILayout/_UILayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlMYXlvdXRcX1VJTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Bilal/Desktop/asp.netCore/Zamazon/Frontend/Zamazon.WebUI/Views/_ViewImports.cshtml]

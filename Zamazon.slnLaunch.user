@@ -29,7 +29,23 @@
       },
       {
         "Name": "Services\\Basket\\Zamazon.Basket.WebApi\\Zamazon.Basket.WebApi.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  },
+  {
+    "Name": "New Profile (1)",
+    "Projects": [
+      {
+        "Name": "Services\\Catalog\\Zamazon.Catalog\\Zamazon.Catalog.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Frontend\\Zamazon.WebUI\\Zamazon.WebUI.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
       }
     ]
   }

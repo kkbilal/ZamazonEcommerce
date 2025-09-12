@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.Catalog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add8d085c09dc45df7b06022450f46a6952ad259")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50d2da2e5bf5d42bec767d1550fa50ff59345ec3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.Catalog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.Catalog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

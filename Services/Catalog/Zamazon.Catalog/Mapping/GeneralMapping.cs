@@ -3,6 +3,7 @@ using Zamazon.Catalog.Dtos.CategoryDtos;
 using Zamazon.Catalog.Dtos.ProductDetailDtos;
 using Zamazon.Catalog.Dtos.ProductDtos;
 using Zamazon.Catalog.Dtos.ProductImageDtos;
+using Zamazon.Catalog.Dtos.SpecialOfferDtos;
 using Zamazon.Catalog.Entities;
 
 namespace Zamazon.Catalog.Mapping
@@ -30,6 +31,14 @@ namespace Zamazon.Catalog.Mapping
             CreateMap<ProductDetail, CreateProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail, GetByIdProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail, UpdateProductDetailDto>().ReverseMap();
+
+			CreateMap<SpecialOffer, ResultSpecialOfferDto>().ReverseMap();
+			CreateMap<SpecialOffer, CreateSpecialOfferDto>().ReverseMap();
+			CreateMap<SpecialOffer, GetByIdSpecialOfferDto>().ReverseMap();
+			CreateMap<SpecialOffer, UpdateSpecialOfferDto>().ReverseMap();
+
+			CreateMap<Product,ResultProductWithCategoryDto>().ReverseMap();
+
         }
     }
 }

@@ -314,5 +314,94 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.ProductsController",
+    "Method": "GetProductsWithCategory",
+    "RelativePath": "api/Products/GetProductsWithCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.SpecialOffersController",
+    "Method": "GetCategories",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.SpecialOffersController",
+    "Method": "CreateSpecialOffer",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSpecialOfferDto",
+        "Type": "Zamazon.Catalog.Dtos.SpecialOfferDtos.CreateSpecialOfferDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.SpecialOffersController",
+    "Method": "GetSpecialOfferById",
+    "RelativePath": "api/SpecialOffers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.SpecialOffersController",
+    "Method": "UpdateSpecialOffer",
+    "RelativePath": "api/SpecialOffers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSpecialOfferDto",
+        "Type": "Zamazon.Catalog.Dtos.SpecialOfferDtos.UpdateSpecialOfferDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zamazon.Catalog.Controllers.SpecialOffersController",
+    "Method": "DeleteSpecialOffer",
+    "RelativePath": "api/SpecialOffers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

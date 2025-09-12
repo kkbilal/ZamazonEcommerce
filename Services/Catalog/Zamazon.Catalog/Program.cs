@@ -6,6 +6,7 @@ using Zamazon.Catalog.Services.ProductDetailServices;
 
 using Zamazon.Catalog.Services.ProductImageServices;
 using Zamazon.Catalog.Services.ProductServices;
+using Zamazon.Catalog.Services.SpecialOfferServices;
 using Zamazon.Catalog.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,7 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
+builder.Services.AddScoped<ISpecialOfferService, SpecialOfferService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

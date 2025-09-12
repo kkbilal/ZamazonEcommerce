@@ -6,7 +6,7 @@ using Zamazon.Catalog.Services.CategoryServices;
 
 namespace Zamazon.Catalog.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase

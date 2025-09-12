@@ -6,7 +6,7 @@ using Zamazon.Catalog.Services.ProductDetailServices;
 
 namespace Zamazon.Catalog.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -63,5 +63,11 @@ namespace Zamazon.Catalog.Controllers
             await _productService.DeleteProductAsync(id);
             return Ok("Product Deleted Successfully");
         }
+        [HttpGet("GetProductsWithCategory")]
+        public async Task<IActionResult> GetProductsWithCategory()
+        {
+			var products = await _productService.GetProductsWithCategoryAsync();
+			return Ok(products);
+		}
     }
 }
