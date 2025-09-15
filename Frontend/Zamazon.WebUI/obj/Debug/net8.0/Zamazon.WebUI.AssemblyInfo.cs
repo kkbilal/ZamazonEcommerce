@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50d2da2e5bf5d42bec767d1550fa50ff59345ec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f41b299379b1de695bccbb3e28ff2d6caca1fa9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
