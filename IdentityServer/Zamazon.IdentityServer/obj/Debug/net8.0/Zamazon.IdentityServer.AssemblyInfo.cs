@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.IdentityServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f41b299379b1de695bccbb3e28ff2d6caca1fa9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fef6d7c0ed3d718b902efabe4bc3cd6ee8dfb3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.IdentityServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.IdentityServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,107 @@
+{
+  "Routes": [
+    //Catalog Service
+    {
+
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "UpstreamPathTemplate": "/services/catalog/{everything}",
+      "UpstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotAuthanticationScheme",
+        "AllowedScopes": [ "CatalogFullPermission" ]
+      },
+
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ]
+    },
+    //Basket Service
+    {
+
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "UpstreamPathTemplate": "/services/basket/{everything}",
+      "UpstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotAuthanticationScheme",
+        "AllowedScopes": [ "BasketFullPermission" ]
+      },
+
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7000
+        }
+      ]
+    },
+    //Cargo Service
+    {
+
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "UpstreamPathTemplate": "/services/cargo/{everything}",
+      "UpstreamScheme": "http",
+      "authenticationoptions": {
+        "authenticationproviderkey": "OcelotAuthanticationScheme",
+        "allowedscopes": [ "CargoFullPermission" ]
+      },
+
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7094
+        }
+      ]
+    },
+    //Discount Service
+    {
+
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "UpstreamPathTemplate": "/services/discount/{everything}",
+      "UpstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotAuthanticationScheme",
+        "AllowedScopes": [ "DiscountFullPermission" ]
+      },
+
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7146
+        }
+      ]
+    },
+    //Order Service
+    {
+
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "UpstreamPathTemplate": "/services/order/{everything}",
+      "UpstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OcelotAuthanticationScheme",
+        "AllowedScopes": [ "OrderFullPermission" ]
+      },
+
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7208
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://api.mybusiness.com"
+  }
+}

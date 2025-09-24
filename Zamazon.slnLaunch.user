@@ -44,6 +44,26 @@
       },
       {
         "Name": "IdentityServer\\Zamazon.IdentityServer\\Zamazon.IdentityServer.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  },
+  {
+    "Name": "New Profile (2)",
+    "Projects": [
+      {
+        "Name": "Services\\Catalog\\Zamazon.Catalog\\Zamazon.Catalog.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "IdentityServer\\Zamazon.IdentityServer\\Zamazon.IdentityServer.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "ApiGateway\\Zamazon.OcelotGateway\\Zamazon.OcelotGateway.csproj",
         "Action": "Start"
       }
     ]

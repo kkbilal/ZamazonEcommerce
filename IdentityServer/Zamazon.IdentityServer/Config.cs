@@ -1,4 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+﻿    // Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
@@ -18,6 +18,7 @@ namespace Zamazon.IdentityServer
             new ApiResource("ResourceOrder"){Scopes = {"OrderFullPermission"}},
             new ApiResource("ResourceCargo"){Scopes = {"CargoFullPermission"}},
             new ApiResource("ResourceBasket"){Scopes = {"BasketFullPermission"}},
+            new ApiResource("ResourceOcelot"){Scopes = {"OcelotFullPermission"}}
         };
         public static IEnumerable<IdentityResource> IdentityResources => new IdentityResource[]
          {
@@ -35,6 +36,7 @@ namespace Zamazon.IdentityServer
                 new ApiScope("OrderFullPermission","Full Authority for Order operations"),
                 new ApiScope("CargoFullPermission","Full Authority for Cargo operations"),
                 new ApiScope("BasketFullPermission","Full Authority for Basket operations"),
+                new ApiScope("OcelotFullPermission","Full Authority for Ocelot operations"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName, "Local API Scope")
             };
 
@@ -50,7 +52,7 @@ namespace Zamazon.IdentityServer
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("zamazonsecret".Sha256()) },
 
-                    AllowedScopes = { "CatalogReadPermission" }
+                    AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission", "OcelotFullPermission" }
                 },
                 // Manager Client
                 new Client
@@ -61,7 +63,7 @@ namespace Zamazon.IdentityServer
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     ClientSecrets = { new Secret("zamazonsecret".Sha256()) },
 
-                    AllowedScopes = { "CatalogFullPermission", "CatalogReadPermission" }
+                    AllowedScopes = { "CatalogFullPermission", "CatalogReadPermission","BasketFullPermission", "OcelotFullPermission" }
                 },
                 // Admin Client
                 new Client
@@ -75,7 +77,9 @@ namespace Zamazon.IdentityServer
                     AllowedScopes = { "CatalogFullPermission", "DiscountFullPermission", "OrderFullPermission",
                         "CatalogReadPermission",
                         "CargoFullPermission",
-                        "BasketFullPermission",
+                        "OcelotFullPermission",
+
+						"BasketFullPermission",
                         IdentityServerConstants.LocalApi.ScopeName,
                         IdentityServerConstants.StandardScopes.Email,
                         IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile

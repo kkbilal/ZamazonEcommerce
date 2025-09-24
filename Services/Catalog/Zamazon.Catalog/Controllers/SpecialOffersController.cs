@@ -6,7 +6,7 @@ using Zamazon.Catalog.Services.SpecialOfferServices;
 
 namespace Zamazon.Catalog.Controllers
 {
-	[AllowAnonymous]
+	[Authorize]
 	[Route("api/[controller]")]
 	[ApiController]
 	public class SpecialOffersController : ControllerBase

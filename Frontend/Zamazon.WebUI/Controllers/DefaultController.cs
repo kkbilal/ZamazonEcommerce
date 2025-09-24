@@ -6,6 +6,7 @@ namespace Zamazon.WebUI.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
     }

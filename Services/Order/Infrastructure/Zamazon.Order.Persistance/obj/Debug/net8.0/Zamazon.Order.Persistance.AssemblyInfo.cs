@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zamazon.Order.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50d2da2e5bf5d42bec767d1550fa50ff59345ec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fef6d7c0ed3d718b902efabe4bc3cd6ee8dfb3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zamazon.Order.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zamazon.Order.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

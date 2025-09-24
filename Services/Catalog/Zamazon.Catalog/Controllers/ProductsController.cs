@@ -6,8 +6,8 @@ using Zamazon.Catalog.Services.ProductDetailServices;
 
 namespace Zamazon.Catalog.Controllers
 {
-    [AllowAnonymous]
-    [Route("api/[controller]")]
+	[Authorize]
+	[Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
